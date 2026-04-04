@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sikandarmirza.github.io/sikandarmirza-blog/sitemap.xml

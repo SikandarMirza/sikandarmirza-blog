@@ -49,6 +49,13 @@
       "blogPost": [
         {
           "@type": "BlogPosting",
+          "headline": "Chronos Mirror: A Self-Evolving Life Audit App with AI-Powered Avatar",
+          "description": "A full-stack app where your habits shape a living cartoon avatar. Built with Next.js, Supabase, Gemini AI, and genetic algorithms.",
+          "datePublished": "2026-04-05",
+          "author": {"@type": "Person", "name": "Sikandar Mirza"}
+        },
+        {
+          "@type": "BlogPosting",
           "headline": "I Let Two AIs Argue Over How to Build a Website. Here's What They Created.",
           "description": "What happens when you remove the human from the creative process entirely?",
           "datePublished": "2026-04-04",
@@ -628,6 +635,37 @@
             <p>AI-driven experiments that push the boundaries of software design</p>
         </div>
 
+        <!-- Chronos Mirror -->
+        <div class="featured-project">
+            <span class="featured-label" style="background: rgba(99, 102, 241, 0.15); color: #818cf8;">Latest</span>
+            <h3>Chronos Mirror</h3>
+            <p>A full-stack self-evolving life audit app with multi-user auth, Gemini AI parsing, and a living cartoon avatar that evolves based on your habits. Built with Next.js 15, Supabase, and genetic algorithms.</p>
+
+            <div class="featured-stats">
+                <div class="stat">
+                    <div class="stat-value">🧬</div>
+                    <div class="stat-label">Evolving Avatar</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">🔐</div>
+                    <div class="stat-label">Multi-User Auth</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">🤖</div>
+                    <div class="stat-label">Gemini AI</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">🗄️</div>
+                    <div class="stat-label">Supabase DB</div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="https://chronos-mirror.vercel.app" class="btn btn-primary" target="_blank">Launch App</a>
+                <a href="https://github.com/SikandarMirza/chronos-mirror" class="btn btn-secondary" target="_blank">View Code</a>
+            </div>
+        </div>
+
         <!-- Synapse Membrane -->
         <div class="featured-project">
             <span class="featured-label">Featured</span>
@@ -745,6 +783,23 @@
                     <p>A deep technical dive into the architecture of Synapse Membrane — from Three.js shaders to WebRTC mesh networks and genetic algorithms running in the browser.</p>
                     <div class="blog-card-meta">
                         <span>Apr 2026 · 12 min read</span>
+                        <span class="read-more">Read More →</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Article 4: Chronos Mirror -->
+            <a href="#article-4" class="blog-card" onclick="showArticle(4); return false;">
+                <div class="blog-card-image">🪞</div>
+                <div class="blog-card-content">
+                    <div class="blog-card-tags">
+                        <span class="tag">Full-Stack</span>
+                        <span class="tag">AI</span>
+                    </div>
+                    <h3>Chronos Mirror: A Self-Evolving Life Audit with a Living Avatar</h3>
+                    <p>A full-stack app where your habits shape a living cartoon avatar. Built with Next.js 15, Supabase, Gemini AI, and genetic algorithms for multi-user evolution.</p>
+                    <div class="blog-card-meta">
+                        <span>Apr 2026 · 15 min read</span>
                         <span class="read-more">Read More →</span>
                     </div>
                 </div>
@@ -1143,6 +1198,116 @@ const crossoverGenome = (parentA, parentB) => ({
                 <p>The source code is on <a href="https://github.com/SikandarMirza/synapse-membrane" target="_blank">GitHub</a>.</p>
 
                 <p>This is just the beginning. The future of software isn't written—it's evolved.</p>
+            </div>
+
+            <!-- Ad Container -->
+            <div class="ad-container">Advertisement Space</div>
+        </div>
+
+        <!-- Article 4: Chronos Mirror -->
+        <div id="article-4-page" class="article-page">
+            <a href="#" onclick="hideArticles(); return false;" class="btn btn-secondary" style="margin-bottom: 40px;">← Back to Blog</a>
+            <h1>Chronos Mirror: A Self-Evolving Life Audit with a Living Avatar</h1>
+            <div class="article-meta">
+                <span>📅 April 2026</span>
+                <span>⏱️ 15 min read</span>
+                <span>🏷️ Full-Stack, AI, Next.js, Supabase</span>
+            </div>
+
+            <!-- Ad Container -->
+            <div class="ad-container">Advertisement Space</div>
+
+            <div class="article-body">
+                <p>After building Synapse Membrane (a self-evolving 3D visualization), I wanted to create something with <strong>real daily utility</strong> for everyday humans. The result is <strong>Chronos Mirror</strong> — a full-stack life audit app that doesn't just track your habits, it <em>reflects</em> them back to you through a living, evolving cartoon avatar.</p>
+
+                <p>Think of it as a mirror that shows not just what you did, but <em>who you're becoming</em>.</p>
+
+                <hr>
+
+                <h2>The Concept</h2>
+
+                <p>Most habit trackers are boring spreadsheets with checkboxes. Chronos Mirror is different. You type your day in plain language — "Ugh, spent 40 mins scrolling TikTok instead of hitting the gym" — and the AI parses it into structured data. Your avatar then evolves based on your patterns:</p>
+
+                <ul>
+                    <li><strong>Health ↑</strong> → Fit body, energetic posture, bright eyes</li>
+                    <li><strong>Health ↓</strong> → Overweight, slouched, tired expression</li>
+                    <li><strong>Career ↑</strong> → Professional suit, tie, focused eyes</li>
+                    <li><strong>Finance ↑</strong> → Nice clothes, gold watch, floating $ symbols</li>
+                    <li><strong>Learning ↑</strong> → Glasses, book in hand, wide alert eyes</li>
+                    <li><strong>Time-waste ↑</strong> → Messy hair, phone in hand, Zzz floating</li>
+                </ul>
+
+                <hr>
+
+                <h2>Full-Stack Architecture</h2>
+
+                <p>Unlike Synapse Membrane (client-side only), Chronos Mirror is a proper full-stack application:</p>
+
+                <ol>
+                    <li><strong>Frontend</strong> — Next.js 15 + React 19 + Tailwind CSS</li>
+                    <li><strong>Backend</strong> — Next.js API Routes (serverless on Vercel)</li>
+                    <li><strong>AI</strong> — Gemini 2.0 Flash API for intelligent parsing of free-form text</li>
+                    <li><strong>Database</strong> — Supabase PostgreSQL with JSONB columns</li>
+                    <li><strong>Auth</strong> — Supabase Auth with email/password and session management</li>
+                    <li><strong>Evolution Engine</strong> — Server-side DNA mutation based on user interactions</li>
+                </ol>
+
+                <hr>
+
+                <h2>The Chaos-to-Cloud Pipeline</h2>
+
+                <p>The heart of the app is the AI parser. Instead of filling out forms, users type naturally:</p>
+
+                <pre><code>User: "Had a great workout today, ran 5k in 25 minutes!"
+
+AI parses to:
+{
+  "mood": "positive",
+  "sentiment": 0.7,
+  "categories": ["health"],
+  "duration": 25,
+  "summary": "User completed a 5k run in 25 minutes",
+  "keyEntities": ["workout", "run", "5k"]
+}</code></pre>
+
+                <p>This structured data feeds both the database and the avatar evolution system.</p>
+
+                <hr>
+
+                <h2>The Self-Evolving DNA System</h2>
+
+                <p>Each user has a <code>user_dna</code> record in the database that stores:</p>
+
+                <ul>
+                    <li><strong>ui_layout</strong> — Which dashboard sections appear first (based on what they check most)</li>
+                    <li><strong>insight_weights</strong> — What type of advice they actually act on vs ignore</li>
+                    <li><strong>interaction_counts</strong> — Which categories they engage with most</li>
+                    <li><strong>fitness_scores</strong> — How well the system's recommendations work for them</li>
+                </ul>
+
+                <p>Every interaction mutates this DNA. Over time, the app becomes uniquely tailored to each user.</p>
+
+                <hr>
+
+                <h2>Multi-User Support</h2>
+
+                <p>Every user gets their own:</p>
+                <ul>
+                    <li>Private database records (Row Level Security)</li>
+                    <li>Unique evolving avatar</li>
+                    <li>Personalized insights and recommendations</li>
+                    <li>Adaptive UI layout</li>
+                </ul>
+
+                <hr>
+
+                <h2>Try It Yourself</h2>
+
+                <p>The live app is at <a href="https://chronos-mirror.vercel.app" target="_blank">chronos-mirror.vercel.app</a>.</p>
+
+                <p>The source code is on <a href="https://github.com/SikandarMirza/chronos-mirror" target="_blank">GitHub</a> (private repo).</p>
+
+                <p>This is what happens when AI designs software that reflects <em>you</em> back at yourself.</p>
             </div>
 
             <!-- Ad Container -->
